@@ -9,7 +9,7 @@ import Login from "./components/Login";
 import Enrollment from "./components/Enrollment"
 import CalendarV2 from "./components/calendar/CalendarV2";
 import { Rotate3D } from 'lucide-react';
-import Game from './components/game/game';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="teachers" element={<div>Profesores</div>} />
             <Route path="enrollment" element={<Enrollment />} />
             <Route path="calendar" element={<CalendarV2 />} />
-            <Route path="game" element={<Game />} />
+  
 
 
           </Route>
